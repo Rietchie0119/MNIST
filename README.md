@@ -9,11 +9,13 @@ At last, it aims to classify an unseen data(test data).
 ## MNIST without CNN
 This version implements neural network without use of a convolutional layer. The pixel intensities are fed into deep neural network, and the model outputs the corresponding class(digit) of the input.<br/>
 
-![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/8068014b-95e4-441c-b46b-44884e255ca8)
-![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/7b064dc2-64fb-4738-9328-f0be6596ad28)
+![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/8068014b-95e4-441c-b46b-44884e255ca8)<br/>
+![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/7b064dc2-64fb-4738-9328-f0be6596ad28)<br/>
 The blue line represents the training set, and the orange line the validation set.<br/>
 
 ## MNIST with CNN
 This version incorporates convolutional layers into our neural network. Lenet Model has been used and following results show that our model's performance has increased.<br/>
-![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/e90f46d3-5553-4ce1-9ee0-57b53c31831f)
-![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/916d1db7-5f7a-4a97-b1e4-037265ae65c7)
+![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/e90f46d3-5553-4ce1-9ee0-57b53c31831f)<br/>
+![](https://github.com/Rietchie0119/Lane-detection/assets/28763133/916d1db7-5f7a-4a97-b1e4-037265ae65c7)<br/>
+<br/>
+For specific details, you can check MNIST.ipynb and MNIST_CNN.ipynb
